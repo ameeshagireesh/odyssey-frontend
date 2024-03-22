@@ -1,9 +1,9 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google"; 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const poppins = Poppins({ weight: ["300", "400", "500", "600"], subsets: ["latin"],}); 
 
 export const metadata = {
   title: "upraise",
@@ -13,7 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      {/* <body className={poppins.className}>   */}
+      <body>
         <div className="container">
           <Navbar />
           {children}
