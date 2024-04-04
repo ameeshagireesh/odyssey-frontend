@@ -15,7 +15,7 @@ const links = [
     },
     {
         title: "Get in touch ->",
-        path: "/contact",
+        path: "https://tally.so/r/mYQMG0",
     },
 ]
 
