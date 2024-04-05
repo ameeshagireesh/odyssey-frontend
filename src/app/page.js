@@ -15,20 +15,20 @@ const Home = () => {
         <p className="text-5xl font-bold text-center">Consulting & Services</p>
         <p className="font-light text-center">Quickly connect with verified buyers  & sellers on our platform for seamless deal-making.</p>
         <div className="flex gap-5 font-normal">
-          <div className="space-y-10 w-1/2">
-            <div className="bg-black text-white rounded-lg p-4 flex-col space-y-5">
+          <div className="space-y-10 w-1/2 text-white rounded-lg flex-col space-y-3">
+            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
               <p>Icon</p>
               <p className="font-normal text-4xl"> Pitch Deck</p>
               <p className="font-light text-base">We'll weave your story into a powerful narrative to elevate your presence in the investor arena.</p>
               <Link href='https://tally.so/r/mYQMG0' className=" text-base">Schedule a Call</Link>
             </div>
-            <div className="bg-black text-white rounded-lg p-4 flex-col space-y-5">
+            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
               <p>Icon</p>
               <p className="font-normal text-4xl"> Valuation Reports</p>
               <p className="font-light text-base">Get to know how much is your company’s worth? This will help you raise capital.</p>
               <Link href='https://tally.so/r/mYQMG0'>Schedule a Call</Link>
             </div>
-            <div className="bg-black text-white rounded-lg p-4 flex-col space-y-5">
+            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
               <p>Icon</p>
               <p className="font-normal text-4xl"> Virtual CFO</p>
               <p className="font-light text-base">Let our experts navigate and optimize your finances.</p>
@@ -44,7 +44,7 @@ const Home = () => {
                 investors but also serves as a strategic tool for your business growth.</p>
               <Link href='https://tally.so/r/mYQMG0'>Schedule a Call</Link>
             </div>
-            <div className="bg-black text-white rounded-lg p-4 h-auto flex-col space-y-5">
+            <div className="bg-black text-white rounded-lg p-8 h-auto flex-col space-y-5">
               <p>Icon</p>
               <p className="font-normal text-4xl"> End to End Fund Raising</p>
               <p className="font-light text-base">We will handhold your entire fund raising process.
@@ -59,12 +59,12 @@ const Home = () => {
         <p className="text-5xl text-center"> Investor - Company Matchmaking</p>
         <p className="font-light text-center"> Quickly connect with verified companies and investors on our platform for making seamless deals.</p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-4 w-1/2 flex-col space-y-5">
+          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
             <p>Icon</p>
             <p className="font-normal text-4xl"> Company</p>
             <p className="font-light text-base">Companies can list anonymously and attract inbound interest.</p>
           </div>
-          <div className="bg-black text-white rounded-lg p-4 w-1/2 flex-col space-y-5">
+          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
             <p>Icon</p>
             <p className="font-normal text-4xl"> Financial Institutions</p>
             <p className="font-light text-base">Financial Institutions can explore a diverse selection of verified companies.</p>
@@ -77,12 +77,12 @@ const Home = () => {
         <p className="text-5xl text-center"> Business Valuation & Funding Readiness Index</p>
         <p className="font-light text-center"> Unlock the value of your business with our intuitive online valuation calculator and funding readiness index — precise, quick, and hassle-free!</p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-4 w-1/2">
+          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
             <p>Icon</p>
             <p className="font-normal text-4xl"> Business Valuation for Companies</p>
             <p className="font-light text-base">Get your business valuation through our quick online valuation calculator tool.</p>
           </div>
-          <div className="bg-black text-white rounded-lg p-4 w-1/2">
+          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
             <p>Icon</p>
             <p className="font-normal text-4xl"> Funding Readiness Index (FRI)</p>
             <p className="font-light text-base">Discover your capital-raising readiness! Take our quick questionnaire, unlock your score, and receive expert advice to bridge the gap.
