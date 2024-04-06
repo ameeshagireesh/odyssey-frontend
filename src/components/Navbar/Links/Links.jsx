@@ -25,17 +25,29 @@ const Links = () => {
     return (
         <div className={styles.container}>
             <div className={styles.links}>
-                {links.map((link =>(
-                    <Link href={link.path} key={link.title}>{link.title}</Link>
-                )))}
+                {links.map((link) => (
+                    <Link 
+                        href={link.path} 
+                        key={link.title}
+                        className={link.title === "Get in touch ->" ? "bg-black text-white rounded-lg font-normal p-4" : ""}
+                    >
+                        {link.title}
+                    </Link>
+                ))}
             </div>
             <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}>Menu</button>
             {
                 open && <div className={styles.mobileLinks}>
-                    {links.map((link=>(
-                        <Link href={link.path} key={link.title}>{link.title}</Link>
-                    )))}
-                    </div>
+                    {links.map((link) => (
+                        <Link 
+                            href={link.path} 
+                            key={link.title}
+                            className={link.title === "Get in touch ->" ? "bg-black text-white rounded-lg font-normal p-4" : ""}
+                        >
+                            {link.title}
+                        </Link>
+                    ))}
+                </div>
             }
         </div>
     )
