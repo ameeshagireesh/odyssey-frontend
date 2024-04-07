@@ -6,7 +6,7 @@ import "./globals.css";
 // const poppins = Poppins({ weight: ["300", "400", "500", "600"], subsets: ["latin"],}); 
 
 export const metadata = {
-  title: "upraise",
+  title: "monter",
   description: "Generated with <3 from delhi",
 };
 
