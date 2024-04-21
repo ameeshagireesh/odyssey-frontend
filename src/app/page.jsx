@@ -33,7 +33,7 @@ const Home = () => {
 
       <div className="flex-col space-y-5">
         <p className="text-5xl font-medium text-center">Our Services</p>
-        <p className="font-light text-center text-2xl">
+        <p className="font-extralight text-center">
           Quickly connect with verified buyers & sellers on our platform for
           seamless deal-making.
         </p>
@@ -119,7 +119,7 @@ const Home = () => {
           {" "}
           Investor - Company Matchmaking
         </p>
-        <p className="font-light text-center text-2xl">
+        <p className="font-extralight text-center ">
           {" "}
           Quickly connect with verified companies and investors on our platform
           for making seamless deals.
@@ -162,7 +162,7 @@ const Home = () => {
           {" "}
           Business Valuation & Funding Readiness Index
         </p>
-        <p className="font-light text-center text-2xl">
+        <p className="font-extralight text-center">
           {" "}
           Unlock the value of your business with our intuitive online valuation
           calculator and funding readiness index — precise, quick, and
