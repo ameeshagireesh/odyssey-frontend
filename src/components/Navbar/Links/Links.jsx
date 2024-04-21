@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState } from "react"
 import styles from "./links.module.css"
+import { CiMenuBurger } from "react-icons/ci";
 
 const links = [
     {
@@ -35,7 +36,7 @@ const Links = () => {
                     </Link>
                 ))}
             </div>
-            <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}>Menu</button>
+            <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}><CiMenuBurger size={30}/></button>
             {
                 open && <div className={styles.mobileLinks}>
                     {links.map((link) => (
