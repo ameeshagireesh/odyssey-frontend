@@ -125,14 +125,24 @@ const Home = () => {
           for making seamless deals.
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <div className="absolute right-0 top-0 h-16 w-16">
+              <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
+                Coming Soon
+              </div>
+            </div>
             <RiDiscountPercentLine size={30} />
             <p className="font-normal text-4xl"> Company</p>
             <p className="font-light text-base">
               Companies can list anonymously and attract inbound interest.
             </p>
           </div>
-          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <div className="absolute right-0 top-0 h-16 w-16">
+              <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
+                Coming Soon
+              </div>
+            </div>
             <HiOutlineShoppingCart size={30} />
             <p className="font-normal text-4xl"> Financial Institutions</p>
             <p className="font-light text-base">
@@ -159,7 +169,12 @@ const Home = () => {
           hassle-free!
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <div className="absolute right-0 top-0 h-16 w-16">
+              <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
+                Coming Soon
+              </div>
+            </div>
             <HiOutlineChartPie size={30} />
             <p className="font-normal text-4xl">
               {" "}
@@ -170,7 +185,12 @@ const Home = () => {
               calculator tool.
             </p>
           </div>
-          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <div className="absolute right-0 top-0 h-16 w-16">
+              <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
+                Coming Soon
+              </div>
+            </div>
             <TbScan size={30} />
             <p className="font-normal text-4xl">
               {" "}
