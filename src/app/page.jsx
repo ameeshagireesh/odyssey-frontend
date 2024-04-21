@@ -24,7 +24,7 @@ const Home = () => {
         <div>
           <Link
             href="https://tally.so/r/mYQMG0"
-            className="bg-black text-white font-normal rounded-lg p-4"
+            className="bg-black text-white font-normal rounded-[12px] p-4"
           >
             Get in touch
           </Link>
@@ -40,8 +40,8 @@ const Home = () => {
 
 
         <div className="flex gap-5 font-normal">
-          <div className="space-y-10 w-1/2 text-white rounded-lg flex-col space-y-3 flex-grow">
-            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+          <div className="space-y-10 w-1/2 text-white rounded-[24px] flex-col space-y-3 flex-grow">
+            <div className="bg-black text-white rounded-[24px] p-10 flex-col space-y-5 flex-grow">
               <IoDocumentTextOutline size={30} />
               <p className="font-normal text-4xl"> Pitch Deck</p>
               <p className="font-light text-base">
@@ -57,7 +57,7 @@ const Home = () => {
                 </Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+            <div className="bg-black text-white rounded-[24px] p-10 flex-col space-y-5 flex-grow">
               <HiOutlineDocumentReport size={30} />
               <p className="font-normal text-4xl"> Valuation Reports</p>
               <p className="font-light text-base">
@@ -68,7 +68,7 @@ const Home = () => {
                 <Link href="https://tally.so/r/mYQMG0">Schedule a Call</Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+            <div className="bg-black text-white rounded-[24px] p-10 flex-col space-y-5 flex-grow">
               <IoPersonOutline size={30} />
               <p className="font-normal text-4xl"> Virtual CFO</p>
               <p className="font-light text-base">
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
           </div>
           <div className="space-y-5 w-1/2 flex flex-col">
-            <div className="bg-black text-white rounded-lg p-10 h-auto flex-col space-y-5 flex-grow">
+            <div className="bg-black text-white rounded-[24px] p-10 h-auto flex-col space-y-5 flex-grow">
               <PiCheckSquare size={30} />
               <p className="font-normal text-4xl"> Financial Model</p>
               <p className="font-light text-base">
@@ -95,7 +95,7 @@ const Home = () => {
                 <Link href="https://tally.so/r/mYQMG0">Schedule a Call</Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+            <div className="bg-black text-white rounded-[24px] p-10 flex-col space-y-5 flex-grow">
               <CiSquareAlert size={30} />
               <p className="font-normal text-4xl"> End to End Fund Raising</p>
               <p className="font-light text-base">
@@ -125,7 +125,7 @@ const Home = () => {
           for making seamless deals.
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
@@ -137,7 +137,7 @@ const Home = () => {
               Companies can list anonymously and attract inbound interest.
             </p>
           </div>
-          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
@@ -169,7 +169,7 @@ const Home = () => {
           hassle-free!
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
@@ -185,7 +185,7 @@ const Home = () => {
               calculator tool.
             </p>
           </div>
-          <div className="relative bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
@@ -214,7 +214,7 @@ const Home = () => {
         <div>
           <Link
             href="https://tally.so/r/mYQMG0"
-            className="bg-black text-white rounded-lg font-normal p-4"
+            className="bg-black text-white rounded-[12px] font-normal p-4"
           >
             Get in touch
           </Link>

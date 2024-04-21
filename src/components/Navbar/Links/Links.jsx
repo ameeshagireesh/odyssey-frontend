@@ -21,29 +21,29 @@ const links = [
 ]
 
 const Links = () => {
-    const[open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false)
 
     return (
         <div className={styles.container}>
             <div className={styles.links}>
                 {links.map((link) => (
-                    <Link 
-                        href={link.path} 
+                    <Link
+                        href={link.path}
                         key={link.title}
-                        className={link.title === "Get in touch ->" ? "bg-black text-white rounded-lg font-normal p-4" : ""}
+                        className={link.title === "Get in touch ->" ? "bg-black text-white rounded-[12px] font-normal p-4" : ""}
                     >
                         {link.title}
                     </Link>
                 ))}
             </div>
-            <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}><CiMenuBurger size={30}/></button>
+            <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}><CiMenuBurger size={30} /></button>
             {
                 open && <div className={styles.mobileLinks}>
                     {links.map((link) => (
-                        <Link 
-                            href={link.path} 
+                        <Link
+                            href={link.path}
                             key={link.title}
-                            className={link.title === "Get in touch ->" ? "bg-black text-white rounded-lg font-normal p-4" : ""}
+                            className={link.title === "Get in touch ->" ? "bg-black text-white rounded-[24px] font-normal p-4" : ""}
                         >
                             {link.title}
                         </Link>
