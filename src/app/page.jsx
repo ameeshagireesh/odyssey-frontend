@@ -169,14 +169,14 @@ const Home = () => {
           hassle-free!
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5 sm:w-full ">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
               </div>
             </div>
             <HiOutlineChartPie size={30} />
-            <p className="font-normal text-4xl">
+            <p className="text-4xl">
               {" "}
               Business Valuation for Companies
             </p>
@@ -185,14 +185,14 @@ const Home = () => {
               calculator tool.
             </p>
           </div>
-          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5">
+          <div className="relative bg-black text-white rounded-[24px] p-10 w-1/2 flex-col space-y-5 sm:w-full ">
             <div className="absolute right-0 top-0 h-16 w-16">
               <div className="absolute right-[-34px] top-[30px] w-[170px] transform rotate-45 bg-white text-center text-black font-normal py-1">
                 Coming Soon
               </div>
             </div>
             <TbScan size={30} />
-            <p className="font-normal text-4xl">
+            <p className="text-4xl">
               {" "}
               Funding Readiness Index (FRI)
             </p>
