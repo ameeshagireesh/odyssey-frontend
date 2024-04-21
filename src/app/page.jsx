@@ -1,6 +1,4 @@
 import Link from "next/link";
-//import pitchDeckIcon from '../icons/Pitchdeck.svg';
-//import ChartIcon from '../icons/Chart.svg';
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { PiCheckSquare } from "react-icons/pi";
 import { HiOutlineDocumentReport } from "react-icons/hi";
@@ -13,7 +11,7 @@ import { TbScan } from "react-icons/tb";
 
 const Home = () => {
   return (
-    
+
     <div className="flex-col space-y-10 py-10">
       <div className="flex-col space-y-10">
         <p className="text-7xl font-bold leading-normal">
@@ -39,10 +37,12 @@ const Home = () => {
           Quickly connect with verified buyers & sellers on our platform for
           seamless deal-making.
         </p>
+
+
         <div className="flex gap-5 font-normal">
-          <div className="space-y-10 w-1/2 text-white rounded-lg flex-col space-y-3">
-            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
-            <IoDocumentTextOutline size={30}/>
+          <div className="space-y-10 w-1/2 text-white rounded-lg flex-col space-y-3 flex-grow">
+            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+              <IoDocumentTextOutline size={30} />
               <p className="font-normal text-4xl"> Pitch Deck</p>
               <p className="font-light text-base">
                 We'll weave your story into a powerful narrative to elevate your
@@ -57,8 +57,8 @@ const Home = () => {
                 </Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
-            <HiOutlineDocumentReport size={30}/>
+            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+              <HiOutlineDocumentReport size={30} />
               <p className="font-normal text-4xl"> Valuation Reports</p>
               <p className="font-light text-base">
                 Get to know how much is your company’s worth? This will help you
@@ -68,8 +68,8 @@ const Home = () => {
                 <Link href="https://tally.so/r/mYQMG0">Schedule a Call</Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-8 flex-col space-y-5">
-            <IoPersonOutline size={30}/>
+            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+              <IoPersonOutline size={30} />
               <p className="font-normal text-4xl"> Virtual CFO</p>
               <p className="font-light text-base">
                 Let our experts navigate and optimize your finances.
@@ -79,9 +79,9 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="space-y-5 w-1/2 ">
-            <div className="bg-black text-white rounded-lg p-8 h-auto flex-col space-y-5">
-            <PiCheckSquare size={30}/>
+          <div className="space-y-5 w-1/2 flex flex-col">
+            <div className="bg-black text-white rounded-lg p-10 h-auto flex-col space-y-5 flex-grow">
+              <PiCheckSquare size={30} />
               <p className="font-normal text-4xl"> Financial Model</p>
               <p className="font-light text-base">
                 Dreaming of an investor-ready financial model? We've got you
@@ -95,8 +95,8 @@ const Home = () => {
                 <Link href="https://tally.so/r/mYQMG0">Schedule a Call</Link>
               </p>
             </div>
-            <div className="bg-black text-white rounded-lg p-8 h-auto flex-col space-y-5">
-            <CiSquareAlert size={30}/>
+            <div className="bg-black text-white rounded-lg p-10 flex-col space-y-5 flex-grow">
+              <CiSquareAlert size={30} />
               <p className="font-normal text-4xl"> End to End Fund Raising</p>
               <p className="font-light text-base">
                 We will handhold your entire fund raising process. We'll be your
@@ -109,6 +109,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+
+
       </div>
 
       <div className="flex-col space-y-5">
@@ -122,15 +125,15 @@ const Home = () => {
           for making seamless deals.
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
-          <RiDiscountPercentLine size={30}/>
+          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <RiDiscountPercentLine size={30} />
             <p className="font-normal text-4xl"> Company</p>
             <p className="font-light text-base">
               Companies can list anonymously and attract inbound interest.
             </p>
           </div>
-          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
-          <HiOutlineShoppingCart size={30}/>
+          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <HiOutlineShoppingCart size={30} />
             <p className="font-normal text-4xl"> Financial Institutions</p>
             <p className="font-light text-base">
               Financial Institutions can explore a diverse selection of verified
@@ -156,8 +159,8 @@ const Home = () => {
           hassle-free!
         </p>
         <div className="flex gap-5 font-normal">
-          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
-          <HiOutlineChartPie size={30}/>
+          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <HiOutlineChartPie size={30} />
             <p className="font-normal text-4xl">
               {" "}
               Business Valuation for Companies
@@ -167,8 +170,8 @@ const Home = () => {
               calculator tool.
             </p>
           </div>
-          <div className="bg-black text-white rounded-lg p-8 w-1/2 flex-col space-y-5">
-            <TbScan size={30}/>
+          <div className="bg-black text-white rounded-lg p-10 w-1/2 flex-col space-y-5">
+            <TbScan size={30} />
             <p className="font-normal text-4xl">
               {" "}
               Funding Readiness Index (FRI)
